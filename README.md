@@ -93,9 +93,13 @@ When you are finished, you can use the export option under the File menu or just
 
 ### Debugging
 
-The DragTK app comes packaged as a .pyw file. This means the command window will not run when the app is launched. If you want additional debugging capabilities, you could change the file extention of DragTK.pyw to DragTK.py.
+The DragTK download will include a .pyw version and .py version.
 
-This could be particuarly useful when you are trying to debug your own app built with DragTK as it means when you run your app from within DragTK, you will get a command prompt window where you can check print() output.
+- The .pyw version is best to use if you do not want the windows command prompt window to open while using the app.
+- The .py version (debug) is best to use if you want to debug your own app built with DragTK as it means when you run your app from within DragTK, you will get a command prompt window where you can check print() output.
+
+<img width="613" height="255" alt="image" src="https://github.com/user-attachments/assets/549e58df-d55e-47bd-ab1a-259e5929b260" />
+
 
 ---
 
