@@ -90,6 +90,11 @@ Note that if you make any changes to your Python code in an external editor (e.g
 
 When you are finished, you can use the export option under the File menu or just copy and paste your code out of the code editor into your own .py file.
 
+
+### Debugging
+
+The DragTK app comes packaged as a .pyw file. This means the command window will not run when the app is launched. If you want additional debugging capabilities, you could change the file extention of DragTK.pyw to DragTK.py.
+
 ---
 
 # License
