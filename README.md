@@ -49,9 +49,10 @@ You can add your own code into the editor. Make sure you add it between the star
 
 Code not added between these comments will be overwritten. (This is due to the underlying functionality of how this application works)
 
-Code between these comments is safe.
+Code written between these comments will be safe.
 
-<img width="800" height="1012" alt="image" src="https://github.com/user-attachments/assets/03f20503-e5b9-486a-b9c6-2c6c412b27d9" />
+<img width="882" height="449" alt="image" src="https://github.com/user-attachments/assets/d7c16096-ce82-4492-9eec-237edd029c7d" />
+
 
 ### Special Functions
 
@@ -61,7 +62,15 @@ You can add code inside these generated functions.
 
 Code which is written OUTSIDE a generated function in the special functions section will be overwritten. So make sure you indent properly!
 
-<img width="800" height="393" alt="image" src="https://github.com/user-attachments/assets/6f06b12c-f19c-42a5-8db3-64d61616cde9" />
+<br>
+<img width="1705" height="812" alt="image" src="https://github.com/user-attachments/assets/9d6194e6-3be8-4deb-8470-3c6397891462" />
+
+<br>
+<img width="1703" height="819" alt="image" src="https://github.com/user-attachments/assets/b8fafa05-4b08-4d4e-a9ff-e7047cd2a7d5" />
+
+<br>
+<img width="860" height="615" alt="image" src="https://github.com/user-attachments/assets/f2ad0cca-79d3-4a46-bc38-9455043441ea" />
+
 
 ### GUI Code
 
@@ -71,6 +80,31 @@ If you wish to make changes more freely, you should ensure you are finished desi
 
 <img width="857" height="315" alt="image" src="https://github.com/user-attachments/assets/5105d116-4c46-4bce-9875-b83ea5f113c8" />
 
+
+### The Canvas
+
+The red dotted line within the canvas indicates what your apps window size will be when it runs. Your apps name and size can be edited in the canvas propties section below the canvas.
+
+- Adding widgets to the canvas
+     - Widgets can be dragged around and positioned. They snap every 10 pixels making it easy to align with other widgets
+     - Move your cursor to the edge of a widget to click and drag to resize it
+     - Right click a widget for copy, paste, and delete options
+     - Double click a widget to edit its text property
+     - Select a widget and use the usual copy and paste shortcuts or use the delete key to delete it
+
+
+<img width="968" height="762" alt="image" src="https://github.com/user-attachments/assets/1add535b-1f59-45b2-9688-906eda1ddaaa" />
+
+
+### Intuitive Functionality
+
+The app features some common functions and shortcuts.
+
+- Light/Dark mode can be toggled in the Options menu or with Ctrl + t shortcut
+- Use the f5 shortcut to run your app
+- Ctrl + s shortcut to save
+- Ctrl + c to copy
+- Ctrl + v to paste
 
 ### Running your app
 
