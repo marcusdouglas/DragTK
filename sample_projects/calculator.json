@@ -1,0 +1,188 @@
+{
+  "elements": {
+    "label1": {
+      "type": "Label",
+      "name": "label1",
+      "text": "Calculator App",
+      "x": 20,
+      "y": 10,
+      "w": 350,
+      "h": 30
+    },
+    "entry1": {
+      "type": "Entry",
+      "name": "entry1",
+      "text": "",
+      "x": 20,
+      "y": 50,
+      "w": 350,
+      "h": 30
+    },
+    "btn_plus": {
+      "type": "Button",
+      "name": "btn_plus",
+      "text": "+",
+      "x": 290,
+      "y": 100,
+      "w": 80,
+      "h": 60
+    },
+    "btn_minus": {
+      "type": "Button",
+      "name": "btn_minus",
+      "text": "-",
+      "x": 290,
+      "y": 180,
+      "w": 80,
+      "h": 60
+    },
+    "btn_multiply": {
+      "type": "Button",
+      "name": "btn_multiply",
+      "text": "*",
+      "x": 290,
+      "y": 260,
+      "w": 80,
+      "h": 60
+    },
+    "btn_divide": {
+      "type": "Button",
+      "name": "btn_divide",
+      "text": "/",
+      "x": 290,
+      "y": 340,
+      "w": 80,
+      "h": 60
+    },
+    "btn1": {
+      "type": "Button",
+      "name": "btn1",
+      "text": "1",
+      "x": 20,
+      "y": 100,
+      "w": 80,
+      "h": 60
+    },
+    "btn2": {
+      "type": "Button",
+      "name": "btn2",
+      "text": "2",
+      "x": 110,
+      "y": 100,
+      "w": 80,
+      "h": 60
+    },
+    "btn3": {
+      "type": "Button",
+      "name": "btn3",
+      "text": "3",
+      "x": 200,
+      "y": 100,
+      "w": 80,
+      "h": 60
+    },
+    "btn4": {
+      "type": "Button",
+      "name": "btn4",
+      "text": "4",
+      "x": 20,
+      "y": 180,
+      "w": 80,
+      "h": 60
+    },
+    "btn5": {
+      "type": "Button",
+      "name": "btn5",
+      "text": "5",
+      "x": 110,
+      "y": 180,
+      "w": 80,
+      "h": 60
+    },
+    "btn6": {
+      "type": "Button",
+      "name": "btn6",
+      "text": "6",
+      "x": 200,
+      "y": 180,
+      "w": 80,
+      "h": 60
+    },
+    "btn7": {
+      "type": "Button",
+      "name": "btn7",
+      "text": "7",
+      "x": 20,
+      "y": 260,
+      "w": 80,
+      "h": 60
+    },
+    "btn8": {
+      "type": "Button",
+      "name": "btn8",
+      "text": "8",
+      "x": 110,
+      "y": 260,
+      "w": 80,
+      "h": 60
+    },
+    "btn9": {
+      "type": "Button",
+      "name": "btn9",
+      "text": "9",
+      "x": 200,
+      "y": 260,
+      "w": 80,
+      "h": 60
+    },
+    "btn0": {
+      "type": "Button",
+      "name": "btn0",
+      "text": "0",
+      "x": 110,
+      "y": 340,
+      "w": 80,
+      "h": 60
+    },
+    "btn_equals": {
+      "type": "Button",
+      "name": "btn_equals",
+      "text": "=",
+      "x": 200,
+      "y": 340,
+      "w": 80,
+      "h": 60
+    },
+    "btn_clear": {
+      "type": "Button",
+      "name": "btn_clear",
+      "text": "Clear",
+      "x": 20,
+      "y": 340,
+      "w": 80,
+      "h": 60
+    }
+  },
+  "custom_code": "",
+  "preserved_handlers": {
+    "on_btn_plus_click": "    entry1.insert(tk.END, \"+\")",
+    "on_btn_minus_click": "    entry1.insert(tk.END, \"-\")",
+    "on_btn_multiply_click": "    entry1.insert(tk.END, \"*\")",
+    "on_btn_divide_click": "    entry1.insert(tk.END, \"/\")",
+    "on_btn1_click": "    entry1.insert(tk.END, 1)",
+    "on_btn2_click": "    entry1.insert(tk.END, 2)",
+    "on_btn3_click": "    entry1.insert(tk.END, 3)",
+    "on_btn4_click": "    entry1.insert(tk.END, 4)",
+    "on_btn5_click": "    entry1.insert(tk.END, 5)",
+    "on_btn6_click": "    entry1.insert(tk.END, 6)",
+    "on_btn7_click": "    entry1.insert(tk.END, 7)",
+    "on_btn8_click": "    entry1.insert(tk.END, 8)",
+    "on_btn9_click": "    entry1.insert(tk.END, 9)",
+    "on_btn0_click": "    entry1.insert(tk.END, 0)",
+    "on_btn_equals_click": "    result = eval(entry1.get())\n    entry1.delete(0, tk.END)\n    entry1.insert(0, result)",
+    "on_btn_clear_click": "    entry1.delete(0, tk.END)"
+  },
+  "canvas_width": 390,
+  "canvas_height": 600,
+  "canvas_title": "My Calculator"
+}
