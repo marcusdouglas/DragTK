@@ -41,8 +41,6 @@ DragTk is written entirely in Python using the built-in Tkinter library.
 
 # User Guidance
 
-## Using the editor
-
 ### Adding Code
 
 You can add your own code into the editor. Make sure you add it between the start and end marking comments as highlighted in the image!
