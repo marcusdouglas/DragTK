@@ -27,9 +27,10 @@ This is a simple Python app that lets you build simple Python GUI apps with basi
 
 ## 🚀 Getting Started
 
-1. Ensure Python3 is downloaded and installed on your computer.
-2. Download the DragTK files.
-3. Run!
+1. Download the Zip folder in this repository - "DragTK.zip"
+2. Ensure Python3 is downloaded and installed on your computer.
+3. Download the DragTK files.
+4. Run!
 
 ---
 
