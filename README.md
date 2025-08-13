@@ -135,6 +135,20 @@ The DragTK download will include a .pyw version and .py version.
 
 <img width="613" height="255" alt="image" src="https://github.com/user-attachments/assets/549e58df-d55e-47bd-ab1a-259e5929b260" />
 
+---
+
+# Widgets
+
+## Radiobuttons
+
+When adding a radiobutton, you will be asked to name a radio group which the radio button will belong to. For example, if you want a user to be able to select one option from three different colors: red, blue, green; you might names the groups "colors".
+
+The next time you add a radiobutton, you should see any previously created groups listed. Just type in the same of a previously existing group (spelling important) to link a radiobutton with an existing group, or, you can of course create a new group.
+
+<img width="758" height="481" alt="image" src="https://github.com/user-attachments/assets/35207a15-6d68-468a-a4ea-8519f71f7436" />
+
+<img width="682" height="474" alt="image" src="https://github.com/user-attachments/assets/92f166ae-b6e1-44e5-9fcf-aad3d23dcddd" />
+
 
 ---
 
