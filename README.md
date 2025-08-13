@@ -1,11 +1,9 @@
-# DragTK
-A simple Python app that lets you build simple Python GUI apps with basic widgets in a drag and drop manor. This app is mainly targeted at earlier education users programming with Python but who want to build Graphic User Interfaces.
-
-
 # Welcome to DragTK™
 
 **DragTk** is a Python application built with **Tkinter** that makes designing Tkinter GUIs quick and intuitive.  
 Instead of manually writing layout code, you can drag and drop widgets into a canvas, adjust their properties, and instantly see the results.
+
+This is a simple Python app that lets you build simple Python GUI apps with basic widgets in a drag and drop manor. This app is mainly targeted at earlier education users programming with Python but who want to build Graphic User Interfaces.
 
 ---
 
